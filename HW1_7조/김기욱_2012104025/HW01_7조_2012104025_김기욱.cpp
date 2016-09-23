@@ -67,9 +67,6 @@ void main() {
 		if (!stricmp(node->word, word)) {
 			printf("%d 위치에서 %s 발견\n", node->index, buffer);
 			j++;
-			if (j == 21) {
-				printf("18503 : %s'\n18504 : %s'\n18505 : %s'\n18506 : %s'\n", node->next->word, node->next->next->word, node->next->next->next->word, node->next->next->next->next->word);
-			}
 		}
 	}
 	printf("총 %d회 %s 발견\n", j, buffer);
