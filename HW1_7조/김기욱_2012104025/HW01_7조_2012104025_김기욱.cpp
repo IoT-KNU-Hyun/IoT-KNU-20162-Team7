@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-asdf
-=======
 /*
 2012104025 김기욱
 window에서 visual studio2015로 작성
@@ -114,4 +111,3 @@ mnode* make_node(char* input) {
 	node->next = NULL;
 	return node;
 }
->>>>>>> a0f3377fb7017aa2c9102fa1c15db5cfe9dd6a10
